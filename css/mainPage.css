@@ -1,0 +1,76 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: 'JetBrains Mono';
+   background-image: radial-gradient(circle, #f5dc3d, #ffb356, #ff9086, #ff82b5, #d186d5, #ae87d1, #8e86c7, #7382b8, #747aa2, #72738d, #6d6c79, #666666);
+}
+
+.container {
+   width: 100vw;
+   height: 100vh;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.title {
+   font-weight: 900;
+   font-size: 2rem;
+   color: #081220;
+   margin-bottom: 0.5rem;
+}
+
+.container-search {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.label-search {
+   color: #081220;
+   font-weight: 500;
+   text-align: center;
+}
+
+.search-div {
+   display: flex;
+   justify-content: space-between;
+}
+
+#search-input {
+   background-color: #081220;
+   border: none;
+   outline: none;
+   border-radius: 8px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   text-align: center;
+   color: white;
+   font-weight: 600;
+   width: 70%;
+}
+
+#search-input::placeholder {
+   color: whitesmoke;
+   opacity: 0.6;
+}
+
+.search-button {
+   background-color: #081220;
+   border-radius: 8px;
+   border-style: none;
+   color: white;
+   cursor: pointer;
+   height: 40px;
+   width: 25%;
+   font-weight: 600;
+}
+
+.bold{
+   font-weight: 700;
+}

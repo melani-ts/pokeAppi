@@ -1,0 +1,181 @@
+:root{
+   --fire-color: linear-gradient(to left top, #f6511d, #f8731b, #f98f23, #f9a933, #f9c249, #efba4b, #e6b24d, #dcaa4e, #c2843d, #a55f2e, #853e22, #641e16);
+   --fire-button: #ff6f52;
+   --water-color:  linear-gradient(to left top, #0d53b0, #195ab4, #2362b7, #2c69bb, #3570be, #3e77c2, #477ec7, #4f85cb, #598ed2, #6496d8, #6e9fdf, #78a8e5);
+   --water-button: #42a1ff;
+   --steel-color: linear-gradient(to left top, #7798ab, #607e8e, #4b6671, #374e56, #24373d, #2d3d42, #364248, #3f484d, #686e73, #94969a, #c0c1c3, #eeeeee);
+   --steel-button: #abaabb;
+   --bug-color: linear-gradient(to left top, #e8e878, #dbe36e, #ccdf64, #beda5b, #aed652, #acd350, #abd14d, #a9ce4b, #b4cc4f, #bfcb54, #c8c95a, #d0c860);
+   --bug-button: #aabb23;
+   --dragon-color: linear-gradient(to left top, #21a57b, #619e52, #8d9331, #b48328, #d36d3d, #e16161, #e15e87, #d166ad, #af7bcb, #868dda, #5e9bda, #4aa5ce);
+   --dragon-button: #9e93f1;
+   --electric-color: linear-gradient(to left top, #f4dc36, #f5e132, #f7e62d, #f7ec28, #f8f122, #fbe515, #fdd909, #ffcd00, #ffac00, #ff8a0f, #ff6528, #ff3a3a);
+   --electric-button:#fecc33;
+   --normal-color: linear-gradient(to left top, #d3b299, #c6a18c, #b9917f, #ac8173, #9e7168, #9c7267, #997366, #977466, #9e8573, #a59683, #ada796, #b7b7aa);
+   --normal-button: #b7b7aa;
+   --grass-color: linear-gradient(to left top, #b8c870, #aec567, #a4c25d, #99c055, #8dbd4c, #82b644, #77b03b, #6ca933, #609c28, #54901d, #498410, #3d7800);
+   --grass-button:#78cc55;
+   --ice-color: linear-gradient(to left top, #def4e9, #caece2, #b4e4dd, #9ddcdc, #87d3dc, #78c9d8, #6abed5, #5eb3d1, #57a4c7, #5196bc, #4d87b0, #4a79a4);
+   --ice-button: #66ccfe;
+   --fighting-color: linear-gradient(to left top, #d3b299, #c6a18c, #b9917f, #ac8173, #9e7168, #a26b62, #a6655d, #a95f58, #bf6055, #d46151, #e8624b, #fc6344);
+   --fighting-button: #d3887e;
+   --poison-color:linear-gradient(to left top, #7b63ad, #8369b3, #8a6fb9, #9276c0, #9a7cc6, #a27fc7, #a982c7, #b085c8, #b786c3, #bd87bf, #c289bb, #c68bb7);
+   --poison-button: #c68bb7;
+   --ground-color: linear-gradient(to left top, #543b0e, #6b5424, #826d3c, #998854, #b0a46e, #abab78, #a7b183, #a4b78f, #8ba68d, #7a9588, #6f827e, #696f6f);
+   --ground-button:#dfba52;
+   --flying-color: linear-gradient(to left top, #e2dee8, #dad4eb, #cfcaef, #c1c1f3, #b0b9f8, #a1b4f7, #91aff5, #7fabf3, #72a7ea, #67a2e1, #5c9ed7, #5299cd);
+   --flying-button: #8899ff;
+   --psychic-color: linear-gradient(to left top, #e7bee7, #deb2e2, #d5a6dd, #cb9ad9, #c08fd5, #af7dbd, #9e6ca5, #8d5b8e, #6d4363, #4b2d3f, #291a20, #000000);;
+   --psychic-button:#ff66a3;
+   --rock-color: linear-gradient(to left top, #493c3c, #654c47, #7f5d50, #967156, #a9885c, #ab895d, #ac8b5d, #ae8c5e, #9f785b, #8b6657, #755751, #5c4949);
+   --rock-button:#baaa66;
+   --ghost-color: linear-gradient(to left top, #a696cf, #9680b5, #866b9c, #755783, #64446b, #6b3e68, #733863, #7a315d, #9e3360, #c1375b, #df414f, #f7553c);
+   --ghost-button: #9995d0;
+   --dark-color:  linear-gradient(to left top, #dee6ef, #b3b5bd, #89888d, #605d60, #383637, #332a2d, #2e1e23, #281218, #411823, #5b1e2e, #772439, #942942);
+   --dark-button: #b59682;
+   /*OPCION DOS DARK: linear-gradient(to left top, #dee6ef, #d5dde5, #cbd3dc, #c2cad2, #b9c1c9, #adb3bc, #a2a5ae, #9798a1, #87838b, #766f74, #645c5f, #524a4a);*/
+   /*--steel-color: linear-gradient(to left top, #8c949c, #899299, #878f96, #848d93, #828a90, #7f8c95, #7c8e9b, #7890a0, #7296b0, #6b9cc0, #65a2d0, #5ea7e1);
+   --steel-button: #abaabb;*/
+   --fairy-color: linear-gradient(to left top, #ffdede, #ffd5d6, #ffccd0, #ffc2c9, #ffb9c4, #fcb8cd, #f7b8d7, #efb9e0, #dbc4f2, #c7cffa, #b8d9fa, #b4e0f4);
+   --fairy-button: #ed99ed;
+}
+
+.card-container .pokemon-card-back{
+   display: none;
+} 
+
+.card-container{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+
+   width: 250px;
+   height: 400px;
+   border-radius: 16px;
+
+}
+.pokemon-image-container{
+   display: flex;
+   justify-content: center;
+}
+.pokemon-image {
+   width: 150px;
+   animation: .3s ease-in-out infinite;
+}
+
+.pokemon-info-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5rem;
+
+}
+
+.pokemon-info-name-id {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.pokemon-name {
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+.pokemon-id {
+   font-weight: 500;
+   opacity: .8;
+}
+
+.pokemon-info-type {
+   border-radius: 4px;
+   padding: 0.31rem;
+   width: 90px;
+   margin-top: 15px;
+   text-align: center;
+  
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.type-pokemon {
+   font-weight: 700;
+   opacity: .7;
+}
+
+.button-container, .button-container-back{
+   position: relative;
+}
+
+.arrow-button{
+   position: absolute;
+   left: 207px;
+   top: 30px;
+}
+
+.arrow-left{
+   position: absolute;
+   left: 15px;
+   top: 80px;
+}
+
+.stats-button, .stats-button-two {
+   border: none;
+   outline: none;
+   background: transparent;
+   padding: 0;
+   cursor: pointer;
+}
+
+.left-align{
+   text-align: start;
+   width: 110px;
+}
+
+.base, .stats{
+   font-weight: 700;
+}
+
+.right-align{
+   text-align: end;
+   width: 40px;
+}
+
+.card-container{
+   display: none;
+}
+
+.tr-base-stats{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-bottom: 1rem;
+}
+
+.tbody-stats{
+   display: flex;
+   flex-direction:column;
+   gap: 10px;
+}
+
+.tr-justify{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.pokemon-table{
+   min-width: 100%;
+}
+
+.pokemon-card-inner{
+   min-width: 100%;
+}
+
+tr{
+   display: flex;
+   justify-content: space-evenly;
+   text-align: start;
+}

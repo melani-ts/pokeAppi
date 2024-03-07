@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>PokeApp</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="icon" type="image/x-icon" href="./assets/icon.png">
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/mainPage.css">
+   <link rel="stylesheet" href="./css/cardContainer.css">
+   <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+
+</head>
+
+<body>
+
+   <section class="container">
+      <header class="header-title">
+         <h1 class="title">PokeApp</h1>
+      </header>
+
+      <div class="card-container animate__animated">
+         <div class="pokemon-card-inner">
+            <div class="pokemon-card-front">
+               <div class="pokemon-image-container">
+                  <img class="pokemon-image" src="" alt="">
+               </div>
+               <div class="bottom-card-front">
+                  <div class="pokemon-info-container">
+                     <div class="pokemon-info-name-id">
+                        <span class="pokemon-name" id="pokemon-name"></span>
+                        <span class="pokemon-id" id="pokemon-id"></span>
+                     </div>
+                     <div class="pokemon-info-weight-height">
+                        <span id="weight"></span>
+                        <span id="height"></span>
+                     </div>
+                     <div class="pokemon-info-type" id="type">
+
+                     </div>
+                  </div>
+
+                  <div class="bottom-card-back">
+                     <div class="button-container">
+                        <button class="stats-button">
+                           <img class="arrow-button" src="./assets/arrow.png" alt="arrow-button">
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--  -->
+            <div class="pokemon-card-back">
+               <div class="table-container">
+                  <table class="pokemon-table">
+                     <thead class="thead">
+                        <tr class="tr-base-stats">
+                           <th class="left-align base">Base</th>
+                           <th class="right-align stats">Stats</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody-stats">
+                        <tr>
+                           <td class="left-align">HP</td>
+                           <td class="right-align" id="hp"></td>
+                        </tr>
+                        <tr class="hola">
+                           <td class="left-align">Attack</td>
+                           <td class="right-align" id="attack"></td>
+                        </tr>
+                        <tr>
+                           <td class="left-align">Defense</td>
+                           <td class="right-align" id="defense"></td>
+                        </tr>
+                        <tr>
+                           <td class="left-align">Sp. Attack</td>
+                           <td class="right-align" id="sp-attack"></td>
+                        </tr>
+                        <tr>
+                           <td class="left-align">Sp. Defense</td>
+                           <td class="right-align" id="sp-defense"></td>
+                        </tr>
+                        <tr>
+                           <td class="left-align">Speed</td>
+                           <td class="right-align" id="speed"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <div class="button-container-back">
+                     <button class="stats-button-two">
+                        <img class="arrow-left" src="./assets/arrow-left.png">
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="container-search">
+         <label class="label-search" for="search-input">Search for Pokémon Name or ID:</label>
+
+         <div class="search-div">
+            <input id="search-input" type="text" autofocus required autocomplete="off">
+            <button class="search-button" id="search-button">Search</button>
+         </div>
+      </div>
+   </section>
+
+   <script src="./javascript/script.js"></script>
+</body>
+
+</html>
